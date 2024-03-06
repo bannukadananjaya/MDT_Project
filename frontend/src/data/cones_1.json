@@ -1,0 +1,251 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "BaseStatio": "MC2_Mahayyawa-KA0303-BDGHP",
+        "Site ID": "KA0303",
+        "Sector Nam": "KA0303@3",
+        "Cell Name": "Mahayyawa-KA0303-H_C",
+        "Cell Lable": "KA0303-H_C",
+        "Selection": "Border",
+        "Clutter": "Rural",
+        "Band": "L1800f1",
+        "Lable": "KA0303-H_C|16918.7|9.7|34.1",
+        "Responsibi": "Central 01",
+        "vendor": "ericsson",
+        "global_cel": 6173187,
+        "tech": "4G-FDD",
+        "type": "Outdoor",
+        "longitude": 80.63438025000001,
+        "latitude": 7.306547481,
+        "azimuth": 290.0,
+        "Final Azim": 290.0,
+        "cell_radiu": 437,
+        "beamwidth": 60.781044,
+        "BW": 66.0,
+        "electrical": 0.0,
+        "mechanical": 0.0,
+        "antenna_he": 18.0,
+        "LTECell Tx": "2T2R",
+        "Physical c": 170,
+        "DL User Th": 16918.74557,
+        "Avg DL Use": 20794.69527,
+        "Avg DL U_1": 11747.5005,
+        "CQI Averag": 9.660334692,
+        "DL PRB Uti": 0.340625,
+        "DL Traffic": 3.709760596,
+        "RRC User N": 39.86469907,
+        "Average TA": 257.0770635,
+        "Overlappin": 26.4,
+        "RSRP < -10": 4.114405844,
+        "percentage": 82.2,
+        "color": "#ed31E4"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [80.63438025, 7.306547481],
+              [80.631291822085956, 7.305835550025558],
+              [80.631214923818646, 7.306381838156703],
+              [80.631234202280268, 7.306933159578889],
+              [80.631349072053055, 7.30747276265781],
+              [80.631556043196412, 7.307984251757468],
+              [80.631848827248291, 7.308452085421652],
+              [80.632218528266705, 7.308862048607542],
+              [80.63247268349086, 7.309074981791558],
+              [80.63438025, 7.306547481]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "BaseStatio": "MC2_Mahayyawa-KA0303-BDGHP",
+        "Site ID": "KA0303",
+        "Sector Nam": "KA0303@1",
+        "Cell Name": "Mahayyawa-KA0303-H_A",
+        "Cell Lable": "KA0303-H_A",
+        "Selection": "Border",
+        "Clutter": "Rural",
+        "Band": "L1800f1",
+        "Lable": "KA0303-H_A|8271.0|9.5|47.9",
+        "Responsibi": "Central 01",
+        "vendor": "ericsson",
+        "global_cel": 6173185,
+        "tech": "4G-FDD",
+        "type": "Outdoor",
+        "longitude": 80.63438025000001,
+        "latitude": 7.306547481,
+        "azimuth": 50.0,
+        "Final Azim": 50.0,
+        "cell_radiu": 437,
+        "beamwidth": 61.15,
+        "BW": 66.0,
+        "electrical": 3.0,
+        "mechanical": 0.0,
+        "antenna_he": 18.0,
+        "LTECell Tx": "2T2R",
+        "Physical c": 168,
+        "DL User Th": 8271.009544,
+        "Avg DL Use": 9651.11866,
+        "Avg DL U_1": 6364.881684,
+        "CQI Averag": 9.50451156,
+        "DL PRB Uti": 0.479305556,
+        "DL Traffic": 3.66701592,
+        "RRC User N": 55.48923611,
+        "Average TA": 337.0942433,
+        "Overlappin": 30.28,
+        "RSRP < -10": 7.871437903,
+        "percentage": 65.55,
+        "color": "#ED0C27"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [80.63438025, 7.306547481],
+              [80.635306978429071, 7.309573973144316],
+              [80.635819259666462, 7.309367317349155],
+              [80.636287816509153, 7.309074981791558],
+              [80.636698411941438, 7.308705849093231],
+              [80.637038570192402, 7.308271135334494],
+              [80.63729795581034, 7.307784049238837],
+              [80.637468687690017, 7.307259390812531],
+              [80.637526297719745, 7.306933159578889],
+              [80.63438025, 7.306547481]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "BaseStatio": "MC2_Mahayyawa1-KA0303-HO",
+        "Site ID": "KA0303",
+        "Sector Nam": "KA0303@2",
+        "Cell Name": "Mahayyawa-KA0303-H_1B",
+        "Cell Lable": "KA0303-H_1B",
+        "Selection": "Border",
+        "Clutter": "barren",
+        "Band": "L1800f1",
+        "Lable": "KA0303-H_1B|14296.0|9.3|22.4",
+        "Responsibi": "Central 01",
+        "vendor": "ericsson",
+        "global_cel": 6331905,
+        "tech": "4G-FDD",
+        "type": "Outdoor",
+        "longitude": 80.63438025000001,
+        "latitude": 7.306547481,
+        "azimuth": 190.0,
+        "Final Azim": 173.5,
+        "cell_radiu": 437,
+        "beamwidth": 322.69516,
+        "BW": 32.5,
+        "electrical": 3.0,
+        "mechanical": 0.0,
+        "antenna_he": 18.0,
+        "LTECell Tx": "2T2R",
+        "Physical c": 169,
+        "DL User Th": 14295.96958,
+        "Avg DL Use": 15723.53053,
+        "Avg DL U_1": 11239.25712,
+        "CQI Averag": 9.338926247,
+        "DL PRB Uti": 0.224236111,
+        "DL Traffic": 1.548572381,
+        "RRC User N": 35.32210648,
+        "Average TA": 250.3558692,
+        "Overlappin": 43.77,
+        "RSRP < -10": 5.40178297,
+        "percentage": 66.58,
+        "color": "#ED0C27"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [80.63438025, 7.306547481],
+              [80.635605988673504, 7.303628916791877],
+              [80.635079783519799, 7.303460737262238],
+              [80.634532323827074, 7.303386346262355],
+              [80.633980243544471, 7.303408004079443],
+              [80.63384347146436, 7.303428413254519],
+              [80.63438025, 7.306547481]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "BaseStatio": "MC2_Mahayyawa1-KA0303-HO",
+        "Site ID": "KA0303",
+        "Sector Nam": "KA0303@2",
+        "Cell Name": "Mahayyawa-KA0303-H_2B",
+        "Cell Lable": "KA0303-H_2B",
+        "Selection": "Border",
+        "Clutter": "barren",
+        "Band": "L1800f1",
+        "Lable": "KA0303-H_2B|6065.9|9.4|60.1",
+        "Responsibi": "Central 01",
+        "vendor": "ericsson",
+        "global_cel": 6331906,
+        "tech": "4G-FDD",
+        "type": "Outdoor",
+        "longitude": 80.63438025000001,
+        "latitude": 7.306547481,
+        "azimuth": 190.0,
+        "Final Azim": 206.5,
+        "cell_radiu": 437,
+        "beamwidth": 36.35714,
+        "BW": 32.5,
+        "electrical": 3.0,
+        "mechanical": 0.0,
+        "antenna_he": 18.0,
+        "LTECell Tx": "2T2R",
+        "Physical c": 243,
+        "DL User Th": 6065.854809,
+        "Avg DL Use": 8046.614887,
+        "Avg DL U_1": 4754.899836,
+        "CQI Averag": 9.400996677,
+        "DL PRB Uti": 0.600625,
+        "DL Traffic": 5.147427807,
+        "RRC User N": 58.51643519,
+        "Average TA": 458.0510685,
+        "Overlappin": 55.35,
+        "RSRP < -10": 20.74622645,
+        "percentage": 58.36,
+        "color": "#ED0C27"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [80.63438025, 7.306547481],
+              [80.63381623136037, 7.303433209006072],
+              [80.633283179948236, 7.303578311145959],
+              [80.632783461801267, 7.303813629462602],
+              [80.632332260380224, 7.304132014059896],
+              [80.632228685892727, 7.304223507225617],
+              [80.63438025, 7.306547481]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
