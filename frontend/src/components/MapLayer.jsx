@@ -1,7 +1,5 @@
+//import necessary packages
 import { useCallback, useEffect, useState } from "react";
-//import towerIcon from "/tower.svg";
-import TowerPopup from "./TowerInfo";
-//import CellInfo from './CellInfo'
 import Map, {
   NavigationControl,
   FullscreenControl,
@@ -10,15 +8,20 @@ import Map, {
   Source,
   Layer,
 } from "react-map-gl";
+// import { Icon } from '@iconify/react'
+import towericon from '@iconify/icons-mdi'
+import Geohash from 'latlon-geohash'
+
+//import functions
+import {FindRSRPColor} from '../assets/Color'
+
+//import css files
+import "mapbox-gl/dist/mapbox-gl.css";
+
+//import data
 import TowerInfo from "./TowerInfo";
-// import { centroid } from "@turf/turf";
 import data from "../assets/fullData.json";
 import cell_data_rsrp from '../assets/cells_with_geohashes.json'
-import {FindRSRPColor} from '../assets/Color'
-import "mapbox-gl/dist/mapbox-gl.css";
-// import { Icon } from '@iconify/react'
-// import towericon from '@iconify/icons-mdi'
-import Geohash from 'latlon-geohash'
 
 const initialViewport = {
   latitude: 7.8731,
@@ -43,8 +46,11 @@ const initialViewport = {
 //   },
 // };
 const towerLayer = {
-  id: "tower",
-  type: "circle",
+  id: "tower-layer",
+  type: "symbol",
+  layout:{{
+    'icon-image':{towericon}
+    }}
   paint: {
     "circle-radius": 10,
     "circle-color": "#107cbf",
