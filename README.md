@@ -1,0 +1,3 @@
+## Visual Interface for MDT(Minimization of Drive test)
+
+Real-Time MDT Visualization Application: Contributed to the development of a dynamic web application for real-time MDT (Measurement Data Traffic) visualization. Leveraged React and Mapbox GL to create an interactive front end with features like zoom, hover, and click events for map layers. Implemented functionality to display site information and MDT data for specific time periods based on user interaction. The backend was managed using a SQL database, with data retrieval and routing handled through Node.js and Express.js, ensuring a smooth flow of information to the front end.
